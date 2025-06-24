@@ -40,9 +40,20 @@
         <entry key="..\:/AndroidProjects/QR_AttendanceApp/app/src/main/res/layout/splash_activity.xml" value="0.358695652173913" />
         <entry key="..\:/AndroidProjects/QR_AttendanceApp/app/src/main/res/layout/submit_fragment.xml" value="0.3026315789473684" />
         <entry key="..\:/AndroidProjects/QR_AttendanceApp/app/src/main/res/menu/menu_user_navigation.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_author.xml" value="0.2085" />
+        <entry key="app/src/main/res/drawable/ic_baseline_account_circle_24.xml" value="0.1975" />
         <entry key="app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.2085" />
         <entry key="app/src/main/res/drawable/ic_baseline_list_24.xml" value="0.2085" />
+        <entry key="app/src/main/res/drawable/ic_baseline_menu_24.xml" value="0.1975" />
         <entry key="app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.2085" />
+        <entry key="app/src/main/res/drawable/ic_baseline_undo_24.xml" value="0.1975" />
+        <entry key="app/src/main/res/drawable/ic_book.xml" value="0.2085" />
+        <entry key="app/src/main/res/drawable/ic_branch.xml" value="0.2085" />
+        <entry key="app/src/main/res/drawable/ic_copy.xml" value="0.2085" />
+        <entry key="app/src/main/res/drawable/ic_default.xml" value="0.2085" />
+        <entry key="app/src/main/res/drawable/ic_loan.xml" value="0.2085" />
+        <entry key="app/src/main/res/drawable/ic_member.xml" value="0.2085" />
+        <entry key="app/src/main/res/drawable/ic_publisher.xml" value="0.2085" />
         <entry key="app/src/main/res/layout/activity_qr_scan.xml" value="0.1" />
         <entry key="app/src/main/res/layout/admin_layout.xml" value="0.19610507246376813" />
         <entry key="app/src/main/res/layout/attendance_card.xml" value="0.1" />
@@ -50,6 +61,7 @@
         <entry key="app/src/main/res/layout/confirm_fragment.xml" value="0.19610507246376813" />
         <entry key="app/src/main/res/layout/emptylecuter_card.xml" value="0.165" />
         <entry key="app/src/main/res/layout/home_fragment.xml" value="0.165" />
+        <entry key="app/src/main/res/layout/item_management_card.xml" value="0.335" />
         <entry key="app/src/main/res/layout/lecuter_card.xml" value="0.165" />
         <entry key="app/src/main/res/layout/login_activity.xml" value="0.19610507246376813" />
         <entry key="app/src/main/res/layout/main_drawer_activity.xml" value="0.1" />

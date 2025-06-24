@@ -42,10 +42,6 @@
             android:name="com.example.LibraryApp.MainDrawer"
             android:exported="true"/>
 
-        <activity
-            android:name="com.example.LibraryApp.Screens.ScannerFragment"
-            android:label="Scanner Fragment">
-        </activity>
     </application>
 
 </manifest>

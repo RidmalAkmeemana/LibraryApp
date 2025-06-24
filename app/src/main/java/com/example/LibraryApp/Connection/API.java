@@ -2,7 +2,6 @@ package com.example.LibraryApp.Connection;
 
 import com.example.LibraryApp.Auth.UserCredential;
 import com.example.LibraryApp.Screens.Attendance.AttendanceModel;
-import com.example.LibraryApp.Screens.Home.LectureModel;
 import com.example.LibraryApp.Screens.Profile.ServerResponse;
 import com.example.LibraryApp.Screens.Profile.UserModel;
 
@@ -32,13 +31,6 @@ public interface API {
     @FormUrlEncoded
     @POST("API/User/userImageUpload.php")
     Call<ServerResponse> updateProfile(@FieldMap Map<String,String> fields);
-
-
-
-    //for get all available Lectures
-    @FormUrlEncoded
-    @POST("API/User/getLectures.php")
-    Call<List<LectureModel>> getLectures(@FieldMap Map<String,String> fields);
 
 
     //Mark Attendance
