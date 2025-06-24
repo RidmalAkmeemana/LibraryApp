@@ -1,26 +1,21 @@
 package com.example.LibraryApp.Screens.Profile;
 
 public class UserModel {
-    private String st_no;
-    private String st_name;
-    private String degree;
-    private String batch;
+    private String u_no;
+    private String u_name;
+    private String username;
     private String imgPath;
 
-    public String getSt_no() {
-        return st_no;
+    public String getU_no() {
+        return u_no;
     }
 
-    public String getSt_name() {
-        return st_name;
+    public String getU_name() {
+        return u_name;
     }
 
-    public String getDegree() {
-        return degree;
-    }
-
-    public String getBatch() {
-        return batch;
+    public String getUsername() {
+        return username;
     }
 
     public String getImgPath() {

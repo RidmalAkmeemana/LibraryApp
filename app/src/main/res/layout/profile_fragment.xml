@@ -45,7 +45,7 @@
                     android:id="@+id/userType"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Student Profile"
+                    android:text="User Profile"
                     android:textAlignment="center"
                     android:textSize="18sp"
                     android:textColor="@android:color/background_dark"
@@ -62,16 +62,16 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Student ID"
+                    android:text="User ID"
                     android:textColor="#4e524f"
                     android:textSize="16sp"
                     android:layout_marginBottom="4dp" />
 
                 <EditText
-                    android:id="@+id/studentID"
+                    android:id="@+id/userID"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="Student ID"
+                    android:hint="User ID"
                     android:focusable="false"
                     android:focusableInTouchMode="false"
                     android:inputType="textPersonName"
@@ -89,16 +89,16 @@
                     android:id="@+id/textView11"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Student Name"
+                    android:text="User Name"
                     android:textColor="#4e524f"
                     android:textSize="16sp"
                     android:layout_marginBottom="4dp" />
 
                 <EditText
-                    android:id="@+id/studentName"
+                    android:id="@+id/userName"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="Student Name"
+                    android:hint="User Name"
                     android:focusable="false"
                     android:focusableInTouchMode="false"
                     android:inputType="textPersonName"
@@ -115,42 +115,16 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Degree"
+                    android:text="Full Name"
                     android:textColor="#4e524f"
                     android:textSize="16sp"
                     android:layout_marginBottom="4dp" />
 
                 <EditText
-                    android:id="@+id/studentDegree"
+                    android:id="@+id/userFullName"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="Degree"
-                    android:focusable="false"
-                    android:focusableInTouchMode="false"
-                    android:inputType="textPersonName"
-                    android:textSize="16sp" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:layout_gravity="center"
-                android:padding="8dp">
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Batch"
-                    android:textColor="#4e524f"
-                    android:textSize="16sp"
-                    android:layout_marginBottom="4dp" />
-
-                <EditText
-                    android:id="@+id/studentBatch"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:hint="Batch"
+                    android:hint="Full Name"
                     android:focusable="false"
                     android:focusableInTouchMode="false"
                     android:inputType="textPersonName"

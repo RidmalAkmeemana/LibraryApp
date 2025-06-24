@@ -58,10 +58,9 @@ public class ProfileFragment extends Fragment {
     SharedPreferences sharedpreferences;
     String UserName;
 
-    EditText studentID;
-    EditText studentName;
-    EditText studentDegree;
-    EditText studentBatch;
+    EditText userID;
+    EditText userName;
+    EditText userFullName;
 
     Bitmap imageBitmap;
     ProgressDialog pd;
@@ -82,7 +81,7 @@ public class ProfileFragment extends Fragment {
 
         //declare a session
         sharedpreferences= getContext().getSharedPreferences("user_details",MODE_PRIVATE);
-        UserName=sharedpreferences.getString("st_username","");
+        UserName=sharedpreferences.getString("username","");
         edit_icon.setOnClickListener(v -> { checkAndRequestForPermission(); });
         return rootView;
     }
@@ -116,10 +115,9 @@ public class ProfileFragment extends Fragment {
                     return;
                 }
 
-                studentID.setText(response.body().getSt_no()+"");
-                studentName.setText(response.body().getSt_name()+"");
-                studentDegree.setText(response.body().getDegree()+"");
-                studentBatch.setText(response.body().getBatch()+"");
+                userID.setText(response.body().getU_no()+"");
+                userFullName.setText(response.body().getU_name()+"");
+                userName.setText(response.body().getUsername()+"");
 
                 // Load the userImage with Picasso and use a callback
                 Picasso.get()
@@ -155,10 +153,9 @@ public class ProfileFragment extends Fragment {
         pd = new ProgressDialog(getContext());
         userImage=rootView.findViewById(R.id.userImage);
         edit_icon=rootView.findViewById(R.id.edit_icon);
-        studentBatch=rootView.findViewById(R.id.studentBatch);
-        studentDegree=rootView.findViewById(R.id.studentDegree);
-        studentName=rootView.findViewById(R.id.studentName);
-        studentID=rootView.findViewById(R.id.studentID);
+        userName=rootView.findViewById(R.id.userName);
+        userFullName=rootView.findViewById(R.id.userFullName);
+        userID=rootView.findViewById(R.id.userID);
 
 
     }

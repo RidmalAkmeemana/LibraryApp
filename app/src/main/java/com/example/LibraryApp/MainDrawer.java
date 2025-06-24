@@ -61,7 +61,7 @@ public class MainDrawer extends AppCompatActivity {
 
         //declare a session
         sharedpreferences= getSharedPreferences("user_details",MODE_PRIVATE);
-        UserName=sharedpreferences.getString("st_username","");
+        UserName=sharedpreferences.getString("username","");
 
         initiationView();
 
@@ -108,7 +108,7 @@ public class MainDrawer extends AppCompatActivity {
             public void onResponse(Call<UserModel> call, Response<UserModel> response) {
                 if(!response.isSuccessful()) return;
 
-                navBar_name.setText(response.body().getSt_name()+"");
+                navBar_name.setText(response.body().getU_name()+"");
 
                 try {
                     Picasso.get().load( ""+response.body().getImgPath()+"")
@@ -222,7 +222,7 @@ public class MainDrawer extends AppCompatActivity {
 //        //sessions clear when user log out
         SharedPreferences.Editor editor = sharedpreferences.edit();
         editor.putBoolean("isLoggedIn",false);
-        editor.putString("st_username","");
+        editor.putString("username","");
         editor.clear();
         editor.commit();
 
